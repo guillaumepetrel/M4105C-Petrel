@@ -1,0 +1,170 @@
+html{
+    font-size: 100%;
+}
+body {
+    font-family: "Arial", sans-serif;
+    width: 100%;
+    margin: 0rem;
+}
+h1 {
+    padding-left: 2rem;
+    color:#373C74;   
+}
+h2{
+    color: white;
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+#header{
+    width: 100%;
+    background-color: black;
+}
+#header img{
+    display: inline-block;
+    margin:1rem;
+    margin-left: 2rem;
+}
+#header div {
+    margin-top: 2.5rem;
+    margin-right: 20rem;
+    float: right;
+}
+#header a {
+    display: inline-block;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+#header a:hover{
+    color: #DCDCDC;
+}
+#header input {
+    margin-right: -40rem;
+    margin-top: 2.5rem;
+    float: right; 
+    height: 2rem;
+}
+#image{
+    text-align: center;
+    display: block;
+}
+#image img{
+    width: 100%;
+}
+#text {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: -1.6rem; 
+    background-color: #DCDCDC;   
+}
+#text p {
+    color:black;   
+}
+#galerie {
+    margin-top: -1rem;
+    background-color: #DCDCDC;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#galerie ul{
+    padding-left:0;
+}
+#galerie ul li{ 
+    list-style-type: none;
+    float:left;
+    width:25%;
+    height:100%;
+    text-align: center;
+    padding-top: 1.8rem;
+}
+#galerie ul li img{
+    width: 12rem; 
+    height: 16rem;
+}
+#galerie a {
+    text-decoration: none;
+}
+strong {
+    display: block;
+    font-size: 1.1vw;
+    color: #373C74;
+}
+
+#contenu {
+    display: inline-block;
+    width: 100%;
+    background-color: #373C74;
+}
+#map {
+    width:49%;
+    display: inline-block;
+}
+#map iframe{
+    width: 75%;
+    margin-bottom: 2.5rem;
+    margin-left: 5rem;
+}
+#formulaire {
+    float:right; 
+    height: 100%;
+    width: 33%;
+    padding-right: 13%;
+}
+#formulaire input {
+    margin: 1rem;
+    box-sizing: border-box;
+}      
+#email{
+    width: 70%;
+}
+#photo{
+    display: block;
+}
+.bidon{
+    width:40%;
+}
+#envoyer{
+    margin-left: 80%;
+}
+#message {
+    display: block;
+    margin: 1rem;
+    width: 70%;
+} 
+#photo{
+    width: 100%;
+}
+#footer {
+    display: block;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    height: 3.2rem;
+}
+#footer p {
+    float: right;
+    color: white; 
+    margin-right: 5rem; 
+}
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 640px){
+ header a{
+     color :red;
+ }
+    
+    
+}
+
+@media(-webkit-min-device-pixel-ratio:2 ){
+
+}    
+}

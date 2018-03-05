@@ -1,0 +1,83 @@
+html{
+    font-size: 100%;
+}
+
+h1{
+    font-size:8vw; 
+}
+
+#p1{
+background-color: blue;
+}
+
+#p2{
+background-image: url("../img/bg.jpg");
+background-size: cover;
+color: white;
+}
+
+#p3{
+background-color: red;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr,th,td{
+    border: 1px solid black;
+}
+
+th{
+    background-color: grey;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 640px){
+ 
+    img{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    table{
+    width: 100%;
+    }
+    
+    td,th{
+    display:block;
+    text-align: center;
+    }
+    
+    
+    
+
+@media(-webkit-min-device-pixel-ratio:2 ){
+
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
