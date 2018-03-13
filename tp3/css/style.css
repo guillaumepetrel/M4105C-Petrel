@@ -153,16 +153,15 @@ strong {
     margin-right: 5rem; 
 }
 
+@media(-webkit-min-device-pixel-ratio:2 ){
+} 
 
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 640px){
+@media only screen and (max-device-width : 640px){
  #header{
     position:initial;
  }
 
- #header a{
+ #menu{
      display: none;
  }
  #header img{
@@ -173,9 +172,71 @@ and (max-device-width : 640px){
  #header input{
     display: none;
  }
+ #image{
+    padding-top: 0;
+ }
+ #galerie{
+    height: 80rem;
+ }
+ #galerie ul li{ 
+    display: block;
+    width: 100%;
+}
+ #galerie strong{ 
+    font-size: 3vw;
+}
+ #contenu {
+    display: block;
+    height: 75rem;
+ }
+ #map{
+    width: 100%;
+ }
+ #map iframe{
+    margin-left: 2.5rem;
+    margin-bottom: 0rem;
+}
+ #formulaire{
+    width: 100%;
+    padding-right: 0%;
+    height: 50%;
+ }
+ #formulaire input{
+    width: 90%;
+ }
+ #message{ 
+    width: 88%;
+ }
 }
 
-@media(-webkit-min-device-pixel-ratio:2 ){
-
-}    
+@media only screen and (min-device-width : 650px) and (max-device-width : 1024px){
+ 
+ #header img{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header div{
+    margin-top: 1rem;
+}
+#header input {
+ margin-top: 0.9rem;
+ margin-right: -30rem;
+}
+#image {
+    padding-top: 9rem;
+}
+#galerie{
+    height: 40rem;
+}
+#galerie ul li{
+    width: 49%;
+}
+#formulaire input{
+    width: 90%;
+ }
+ #message{ 
+    width: 88%;
+ }
 }
