@@ -20,6 +20,12 @@ h2{
     width: 100%;
     background-color: black;
 }
+.hamburger{
+    visibility: hidden;
+}
+.cross{
+    visibility: hidden;
+}
 #header img{
     display: inline-block;
     margin:1rem;
@@ -134,7 +140,7 @@ strong {
 }
 #message {
     display: block;
-    margin: 1rem;
+    margin-left: 1rem;
     width: 70%;
 } 
 #photo{
@@ -142,9 +148,10 @@ strong {
 }
 #footer {
     display: block;
+    position: relative;
+    clear: both;
     width: 100%;
     background-color: black;
-    margin: 0;
     height: 3.2rem;
 }
 #footer p {
@@ -160,14 +167,43 @@ strong {
  #header{
     position:initial;
  }
-
+.hamburger{
+  visibility: visible;
+  background:none;
+  position:absolute;
+  line-height:4.5rem;
+  padding:1rem 2rem 1rem 2rem;
+  color:#999;
+  border:0;
+  font-size:2rem;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  visibility: hidden;
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
  #menu{
      display: none;
  }
  #header img{
-    width: 100%;
-    margin-left:auto;
-    margin-right: auto;
+    width: 50%;
+    margin-left:25%;
+    margin-right: 25%;
  }
  #header input{
     display: none;
@@ -187,7 +223,6 @@ strong {
 }
  #contenu {
     display: block;
-    height: 75rem;
  }
  #map{
     width: 100%;
@@ -197,6 +232,7 @@ strong {
     margin-bottom: 0rem;
 }
  #formulaire{
+    float: none;
     width: 100%;
     padding-right: 0%;
     height: 50%;
@@ -207,6 +243,13 @@ strong {
  #message{ 
     width: 88%;
  }
+ 
+ #footer{
+    height: 3.2rem;
+ }
+ #footer p {
+    margin-right: 30%;
+ }
 }
 
 @media only screen and (min-device-width : 650px) and (max-device-width : 1024px){
@@ -216,6 +259,12 @@ strong {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
+}
+.hamburger{
+    visibility: hidden;
+}
+.cross{
+    visibility: hidden;
 }
 #header div{
     margin-top: 1rem;
