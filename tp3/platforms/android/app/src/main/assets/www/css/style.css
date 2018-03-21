@@ -1,0 +1,291 @@
+html{
+    font-size: 100%;
+}
+body {
+    font-family: "Arial", sans-serif;
+    width: 100%;
+    margin: 0rem;
+}
+h1 {
+    padding-left: 2rem;
+    color:#373C74;   
+}
+h2{
+    color: white;
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+.hamburger{
+    visibility: hidden;
+}
+.cross{
+    visibility: hidden;
+}
+#header img{
+    display: inline-block;
+    margin:1rem;
+    margin-left: 2rem;
+}
+#header div {
+    margin-top: 2.5rem;
+    margin-right: 20rem;
+    float: right;
+}
+#header a {
+    display: inline-block;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+#header a:hover{
+    color: #DCDCDC;
+}
+#header input {
+    margin-right: -40rem;
+    margin-top: 2.5rem;
+    float: right; 
+    height: 2rem;
+}
+#image{
+    text-align: center;
+    display: block;
+}
+#image img{
+    width: 100%;
+}
+#text {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: -1.6rem; 
+    background-color: #DCDCDC;   
+}
+#text p {
+    color:black;   
+}
+#galerie {
+    margin-top: -1rem;
+    background-color: #DCDCDC;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#galerie ul{
+    padding-left:0;
+}
+#galerie ul li{ 
+    list-style-type: none;
+    float:left;
+    width:25%;
+    height:100%;
+    text-align: center;
+    padding-top: 1.8rem;
+}
+#galerie ul li img{
+    width: 12rem; 
+    height: 16rem;
+}
+#galerie a {
+    text-decoration: none;
+}
+strong {
+    display: block;
+    font-size: 1.1vw;
+    color: #373C74;
+}
+
+#contenu {
+    display: inline-block;
+    width: 100%;
+    background-color: #373C74;
+}
+#map {
+    width:49%;
+    display: inline-block;
+}
+#map iframe{
+    width: 75%;
+    margin-bottom: 2.5rem;
+    margin-left: 5rem;
+}
+#formulaire {
+    float:right; 
+    height: 100%;
+    width: 33%;
+    padding-right: 13%;
+}
+#formulaire input {
+    margin: 1rem;
+    box-sizing: border-box;
+}      
+#email{
+    width: 70%;
+}
+#photo{
+    display: block;
+}
+.bidon{
+    width:40%;
+}
+#envoyer{
+    margin-left: 80%;
+}
+#message {
+    display: block;
+    margin-left: 1rem;
+    width: 70%;
+} 
+#photo{
+    width: 100%;
+}
+#footer {
+    display: block;
+    position: relative;
+    clear: both;
+    width: 100%;
+    background-color: black;
+    height: 3.2rem;
+}
+#footer p {
+    float: right;
+    color: white; 
+    margin-right: 5rem; 
+}
+
+@media(-webkit-min-device-pixel-ratio:2 ){
+} 
+
+@media only screen and (max-device-width : 640px){
+ #header{
+    position:initial;
+ }
+.hamburger{
+  visibility: visible;
+  background:none;
+  position:absolute;
+  line-height:4.5rem;
+  padding:1rem 2rem 1rem 2rem;
+  color:#999;
+  border:0;
+  font-size:2rem;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  visibility: hidden;
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+ #menu{
+     display: none;
+ }
+ #header img{
+    width: 50%;
+    margin-left:25%;
+    margin-right: 25%;
+ }
+ #header input{
+    display: none;
+ }
+ #image{
+    padding-top: 0;
+ }
+ #galerie{
+    height: 80rem;
+ }
+ #galerie ul li{ 
+    display: block;
+    width: 100%;
+}
+ #galerie strong{ 
+    font-size: 3vw;
+}
+ #contenu {
+    display: block;
+ }
+ #map{
+    width: 100%;
+ }
+ #map iframe{
+    margin-left: 2.5rem;
+    margin-bottom: 0rem;
+}
+ #formulaire{
+    float: none;;
+    width: 100%;
+    padding-right: 0%;
+    height: 50%;
+ }
+ #formulaire input{
+    width: 90%;
+ }
+ #message{ 
+    width: 88%;
+ }
+ 
+ #footer{
+    height: 3.2rem;
+ }
+ #footer p {
+    margin-right: 30%;
+ }
+}
+
+@media only screen and (min-device-width : 650px) and (max-device-width : 1024px){
+ 
+ #header img{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hamburger{
+    visibility: hidden;
+}
+.cross{
+    visibility: hidden;
+}
+#header div{
+    margin-top: 1rem;
+}
+#header input {
+ margin-top: 0.9rem;
+ margin-right: -30rem;
+}
+#image {
+    padding-top: 9rem;
+}
+#galerie{
+    height: 40rem;
+}
+#galerie ul li{
+    width: 49%;
+}
+#formulaire input{
+    width: 90%;
+ }
+ #message{ 
+    width: 88%;
+ }
+}
