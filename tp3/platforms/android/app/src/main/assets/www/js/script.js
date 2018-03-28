@@ -1,3 +1,4 @@
+
 function checkConnection() {
     var networkState = navigator.connection.type;
     var states = {};
@@ -25,10 +26,10 @@ function onDeviceReady() {
 
     // Langue //
     navigator.globalization.getPreferredLanguage(
-    function (language) {
-        console.log('language: ' + language.value + '\n');
+    function language(language) {
+        alert(' Modele : '+ device.model + '\n Syst Exploit : '+ device.platform + '\n Version : ' + device.version + '\n UUID : ' + device.uuid + '\n Language : ' + language.value);
     },
-    function () {
+    function language() {
         console.log('Error getting language\n');
     }
     );
@@ -41,6 +42,7 @@ function onDeviceReady() {
     // niveau batterie faible // 
     window.addEventListener("batterycritical", onBatteryCritical, false);
     function onBatteryCritical(status) {
-        alert("Battery Level Critical " + status.level + "%\nRecharge Soon!");
+        alert("Niveau de batterie faible ! " + status.level + "%\nRechargez le !");
     }
+
 }

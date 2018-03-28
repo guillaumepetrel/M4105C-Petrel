@@ -53,6 +53,10 @@ h2{
     float: right; 
     height: 2rem;
 }
+#telephone{
+    visibility: hidden;
+}
+
 #image{
     text-align: center;
     display: block;
@@ -164,9 +168,11 @@ strong {
 } 
 
 @media only screen and (max-device-width : 640px){
- #header{
-    position:initial;
+ #menu{
+    display: none;
+    visibility: visible;
  }
+
 .hamburger{
   visibility: visible;
   background:none;
@@ -182,24 +188,25 @@ strong {
   z-index:10000000000000;
 }
 .cross{
-  visibility: hidden;
+    visibility: visible;
   background:none;
   position:absolute;
-  top:0px;
-  right:0;
-  padding:7px 15px 0px 15px;
+  line-height:4.5rem;
+  padding:1rem 2rem 1rem 2rem;
   color:#999;
   border:0;
-  font-size:3em;
-  line-height:65px;
+  font-size:4rem;
   font-weight:bold;
   cursor:pointer;
   outline:none;
   z-index:10000000000000;
 }
- #menu{
-     display: none;
- }
+#telephone{
+    visibility: visible;
+    float: right;
+    margin-top: -5rem;
+    font-size: 8vw;
+}
  #header img{
     width: 50%;
     margin-left:25%;
@@ -208,8 +215,26 @@ strong {
  #header input{
     display: none;
  }
+  #header a{
+    float: right;
+    margin-top: -5rem;
+    font-size: 8vw;
+}
+#menu{
+    width: 100%;
+}
+ #menu a{
+    float: none;
+    margin-left: 20rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: 5vw;
+    display: block;
+    width: 100%;
+ }
  #image{
-    padding-top: 0;
+    padding-top: 6rem;
  }
  #galerie{
     height: 80rem;
@@ -259,6 +284,9 @@ strong {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
+}
+#telephone{
+    visibility: hidden;
 }
 .hamburger{
     visibility: hidden;

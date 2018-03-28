@@ -13,6 +13,7 @@
         "cordova-android": "^7.0.0",
         "cordova-plugin-battery-status": "^2.0.1",
         "cordova-plugin-console": "^1.1.0",
+        "cordova-plugin-contacts": "^3.0.1",
         "cordova-plugin-device": "^2.0.1",
         "cordova-plugin-globalization": "^1.0.9",
         "cordova-plugin-network-information": "^2.0.1",
@@ -29,7 +30,8 @@
             "cordova-plugin-device": {},
             "cordova-plugin-globalization": {},
             "cordova-plugin-battery-status": {},
-            "cordova-plugin-statusbar": {}
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-contacts": {}
         },
         "platforms": [
             "android"
